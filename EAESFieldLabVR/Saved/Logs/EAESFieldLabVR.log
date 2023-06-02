@@ -3186,3 +3186,1702 @@ Script Stack (0 frames) :
 [2023.06.02-19.46.17:706][637]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
 [2023.06.02-19.46.17:709][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
 [2023.06.02-19.46.17:764][638]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.06.02-19.48.49:406][909]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-19.48.49:510][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2023.06.02-19.48.59:090][292]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-19.48.59:189][292]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.06.02-19.48.59:243][292]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.48.59:308][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.48.59:318][292]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.48.59:318][292]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget848073CE4B474E927DFB6B9AE371693B.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.48.59:327][292]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 7.07 sec)
+[2023.06.02-19.48.59:337][292]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.48.59:337][292]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-19.49.01:648][383]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.49.01:649][383]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.49.03:765][464]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-19.49.03:774][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-19.49.03:774][464]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 5:49:03 a.m.)
+[2023.06.02-19.49.03:774][464]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-19.49.03:782][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007743s)
+[2023.06.02-19.49.03:782][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.007784s)
+[2023.06.02-19.49.03:782][464]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-19.49.03:783][464]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-19.49.03:783][464]LogPlayLevel: PIE: World Init took: (0.001047s)
+[2023.06.02-19.49.03:848][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.06.02-19.49.03:852][464]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.06.02-19.49.03:853][464]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-19.49.03:853][464]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-19.49.03:853][464]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-19.49.03:853][464]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-19.49.03:853][464]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-19.49.03:853][464]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-19.49.03:853][464]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-19.49.03:853][464]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-19.49.03:853][464]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-19.49.03:853][464]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-19.49.03:853][464]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-19.49.03:856][464]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-19.49.03:868][464]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-19.49.03:868][464]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-19.49.03:868][464]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-19.49.03:868][464]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-19.49.03:869][464]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.06.02-19.49.03:869][464]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.06.02-19.49.03:871][464]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.06.02-19.49.03:871][464]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.06.02-19.49.03:871][464]LogInit: FAudioDevice initialized.
+[2023.06.02-19.49.03:871][464]LogAudio: Display: Audio Device (ID: 25) registered with world 'Tutorial'.
+[2023.06.02-19.49.03:899][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-19.49.04:098][464]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-19.49.04:100][464]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-12.49.04
+[2023.06.02-19.49.04:100][464]LogWorld: Bringing up level for play took: 0.001833
+[2023.06.02-19.49.04:105][464]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2023.06.02-19.49.04:108][464]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-19.49.04:110][464]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-19.49.04:112][464]Cmd: vr.PixelDensity 1.0
+[2023.06.02-19.49.04:113][464]vr.PixelDensity = "1"
+[2023.06.02-19.49.04:122][464]PIE: Server logged in
+[2023.06.02-19.49.04:128][464]PIE: Play in editor total start time 0.354 seconds.
+[2023.06.02-19.49.04:146][464]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-19.49.04:155][464]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-19.49.04:173][464]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-19.49.09:086][595]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.49.09:651][610]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.49.09:995][619]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.49.10:332][629]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.49.10:726][641]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.49.11:130][654]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.49.11:883][674]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.49.12:334][685]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.49.21:213][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-19.49.21:213][999]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-19.49.21:281][999]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-19.49.21:283][999]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-19.49.21:283][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-19.49.21:286][999]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-19.49.21:298][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-19.49.21:362][999]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.02-19.49.21:364][999]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-19.49.21:364][999]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.06.02-19.49.21:366][999]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.06.02-19.49.21:373][999]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-19.49.21:373][999]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-19.49.21:375][999]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.06.02-19.49.21:428][  0]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.06.02-19.49.42:722][857]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.49.42:722][857]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.50.43:838][383]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.50.43:838][383]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.51.11:118][587]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.51.11:118][587]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.51.36:600][648]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-19.51.36:733][648]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.06.02-19.51.36:805][648]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.51.36:886][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.51.36:896][648]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.51.36:896][648]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidgetB67586B7473675620A62929D83A42B44.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.51.36:904][648]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 7.17 sec)
+[2023.06.02-19.51.36:914][648]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.51.36:914][648]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-19.51.43:907][934]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.51.43:907][934]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.52.19:281][408]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-19.52.19:385][408]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2023.06.02-19.52.19:440][408]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.52.19:513][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.52.19:524][408]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.52.19:524][408]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget9E4BDBAE4478ADB8E60E349407A04FDA.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.52.19:531][408]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 7.26 sec)
+[2023.06.02-19.52.19:539][408]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.52.19:539][408]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-19.52.32:767][969]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-19.52.32:882][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.06.02-19.52.32:953][969]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.52.33:021][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.52.33:031][969]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.52.33:032][969]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget25DD1EE94784812FB1983A91FA7C50BE.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.52.33:039][969]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 7.35 sec)
+[2023.06.02-19.52.33:049][969]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.52.33:049][969]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-19.52.33:752][999]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-19.52.33:760][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-19.52.33:760][999]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 5:52:33 a.m.)
+[2023.06.02-19.52.33:760][999]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-19.52.33:768][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006963s)
+[2023.06.02-19.52.33:768][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.006996s)
+[2023.06.02-19.52.33:768][999]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-19.52.33:768][999]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-19.52.33:769][999]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2023.06.02-19.52.33:830][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.06.02-19.52.33:833][999]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2023.06.02-19.52.33:833][999]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-19.52.33:833][999]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-19.52.33:833][999]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-19.52.33:833][999]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-19.52.33:833][999]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-19.52.33:833][999]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-19.52.33:833][999]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-19.52.33:833][999]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-19.52.33:834][999]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-19.52.33:834][999]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-19.52.33:834][999]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-19.52.33:836][999]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-19.52.33:846][999]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-19.52.33:847][999]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-19.52.33:847][999]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-19.52.33:847][999]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-19.52.33:847][999]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2023.06.02-19.52.33:848][999]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2023.06.02-19.52.33:849][999]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2023.06.02-19.52.33:849][999]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2023.06.02-19.52.33:849][999]LogInit: FAudioDevice initialized.
+[2023.06.02-19.52.33:849][999]LogAudio: Display: Audio Device (ID: 26) registered with world 'Tutorial'.
+[2023.06.02-19.52.33:884][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-19.52.34:081][999]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-19.52.34:083][999]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-12.52.34
+[2023.06.02-19.52.34:083][999]LogWorld: Bringing up level for play took: 0.002155
+[2023.06.02-19.52.34:086][999]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.06.02-19.52.34:090][999]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-19.52.34:095][999]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-19.52.34:097][999]Cmd: vr.PixelDensity 1.0
+[2023.06.02-19.52.34:097][999]vr.PixelDensity = "1"
+[2023.06.02-19.52.34:105][999]PIE: Server logged in
+[2023.06.02-19.52.34:109][999]PIE: Play in editor total start time 0.348 seconds.
+[2023.06.02-19.52.34:124][999]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-19.52.34:132][999]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-19.52.34:151][999]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-19.52.37:909][ 90]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.52.38:574][107]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.52.38:909][115]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.52.39:159][121]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.52.39:399][127]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.52.40:489][156]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.52.41:573][190]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.52.59:965][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-19.52.59:965][863]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-19.53.00:055][863]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-19.53.00:058][863]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-19.53.00:059][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-19.53.00:062][863]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-19.53.00:072][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-19.53.00:147][863]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.02-19.53.00:148][863]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-19.53.00:148][863]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.06.02-19.53.00:150][863]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2023.06.02-19.53.00:158][863]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-19.53.00:158][863]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-19.53.00:161][863]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2023.06.02-19.53.00:230][864]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.06.02-19.53.09:764][247]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.53.09:765][247]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.53.30:765][117]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.53.30:765][117]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.53.48:324][820]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.53.48:324][820]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.54.00:283][281]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.54.00:283][281]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.54.16:167][970]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.54.16:167][970]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.54.24:719][311]LogEditorTransaction: Undo Move Node
+[2023.06.02-19.54.25:764][352]LogEditorTransaction: Undo Change Pure
+[2023.06.02-19.54.29:592][501]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.54.29:592][501]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.54.58:024][794]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.06.02-19.54.58:029][794]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Tutorial' took 0.070
+[2023.06.02-19.54.58:029][794]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widgets/RockWidget] ([2] browsable assets)...
+[2023.06.02-19.54.58:034][794]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widgets/RockWidget.RockWidget]
+[2023.06.02-19.54.58:034][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/RockWidget]
+[2023.06.02-19.54.58:043][794]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/RockWidget_Auto2
+[2023.06.02-19.54.58:043][794]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget_Auto206CE44C4425841839AB443B6D2C05578.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/Autosaves/Game/Widgets/RockWidget_Auto2.uasset'
+[2023.06.02-19.54.58:044][794]LogFileHelpers: Auto-saving content packages took 0.015
+[2023.06.02-19.55.25:998][842]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.55.25:998][842]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.56.53:412][931]LogSlate: Window 'Delete Variable' being destroyed
+[2023.06.02-19.57.08:284][538]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-19.57.08:384][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.06.02-19.57.08:439][538]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.57.08:515][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.57.08:528][538]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.57.08:529][538]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget5D02867C4573B3E242FE148E56BBC8F8.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.57.08:537][538]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 7.45 sec)
+[2023.06.02-19.57.08:550][538]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.57.08:550][538]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-19.57.09:018][556]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.57.09:086][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.57.09:099][556]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.57.09:100][556]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidgetDC63478E4FFB588B401A3B811F4195A6.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.57.09:108][556]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 7.54 sec)
+[2023.06.02-19.57.09:118][556]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.57.09:119][556]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-19.57.29:898][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.57.29:959][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.57.29:972][374]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.57.29:973][374]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget6E554C4F475B29959913EAB4987770E9.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.57.29:981][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 7.62 sec)
+[2023.06.02-19.57.29:991][374]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.57.29:991][374]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-19.57.30:616][401]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-19.57.30:719][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.06.02-19.57.32:752][476]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.57.32:752][476]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.57.41:407][822]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-19.57.41:416][822]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.02-19.57.41:420][822]LogPlayLevel: [PlayLevel] Compiling RockWidget before play...
+[2023.06.02-19.57.41:546][822]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.57.41:620][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.57.41:633][822]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.57.41:633][822]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidgetE9C6F37E49D59612E3E21686A2031487.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.57.41:641][822]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 7.72 sec)
+[2023.06.02-19.57.41:709][822]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.06.02-19.57.41:711][822]LogPlayLevel: PlayLevel: Blueprint regeneration took 295 ms (1 blueprints)
+[2023.06.02-19.57.41:712][822]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 5:57:41 a.m.)
+[2023.06.02-19.57.41:712][822]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-19.57.41:718][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005850s)
+[2023.06.02-19.57.41:718][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.005885s)
+[2023.06.02-19.57.41:718][822]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-19.57.41:719][822]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-19.57.41:719][822]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2023.06.02-19.57.41:778][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.06.02-19.57.41:779][822]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2023.06.02-19.57.41:779][822]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-19.57.41:779][822]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-19.57.41:779][822]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-19.57.41:779][822]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-19.57.41:779][822]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-19.57.41:779][822]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-19.57.41:779][822]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-19.57.41:779][822]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-19.57.41:780][822]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-19.57.41:780][822]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-19.57.41:780][822]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-19.57.41:782][822]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-19.57.41:794][822]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-19.57.41:794][822]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-19.57.41:794][822]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-19.57.41:794][822]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-19.57.41:795][822]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2023.06.02-19.57.41:795][822]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2023.06.02-19.57.41:796][822]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2023.06.02-19.57.41:796][822]LogInit: FAudioDevice initialized.
+[2023.06.02-19.57.41:796][822]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2023.06.02-19.57.41:796][822]LogAudio: Display: Audio Device (ID: 27) registered with world 'Tutorial'.
+[2023.06.02-19.57.41:809][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-19.57.42:009][822]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-19.57.42:010][822]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-12.57.42
+[2023.06.02-19.57.42:011][822]LogWorld: Bringing up level for play took: 0.002414
+[2023.06.02-19.57.42:015][822]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.06.02-19.57.42:020][822]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-19.57.42:022][822]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-19.57.42:024][822]Cmd: vr.PixelDensity 1.0
+[2023.06.02-19.57.42:024][822]vr.PixelDensity = "1"
+[2023.06.02-19.57.42:031][822]PIE: Server logged in
+[2023.06.02-19.57.42:034][822]PIE: Play in editor total start time 0.619 seconds.
+[2023.06.02-19.57.42:073][822]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-19.57.42:082][822]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-19.57.42:099][822]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-19.57.42:144][823]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.57.42:144][823]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-19.57.45:272][904]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.57.45:862][918]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.57.46:205][927]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.57.47:136][954]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.57.47:888][977]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.58.02:066][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-19.58.02:066][526]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-19.58.02:121][526]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-19.58.02:123][526]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-19.58.02:124][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-19.58.02:127][526]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-19.58.02:136][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-19.58.02:190][526]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-19.58.02:190][526]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.06.02-19.58.02:192][526]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2023.06.02-19.58.02:198][526]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-19.58.02:198][526]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-19.58.02:200][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2023.06.02-19.58.02:245][527]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.06.02-19.58.11:063][932]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.58.11:063][932]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-19.59.06:404][189]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-19.59.06:506][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.06.02-19.59.12:920][455]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-19.59.12:927][455]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.02-19.59.12:930][455]LogPlayLevel: [PlayLevel] Compiling RockWidget before play...
+[2023.06.02-19.59.13:039][455]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.59.13:102][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.59.13:115][455]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.59.13:115][455]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget14C00C854ED0DD677FDDB6BEEB94169A.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.59.13:123][455]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 7.80 sec)
+[2023.06.02-19.59.13:182][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.06.02-19.59.13:184][455]LogPlayLevel: PlayLevel: Blueprint regeneration took 257 ms (1 blueprints)
+[2023.06.02-19.59.13:184][455]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 5:59:13 a.m.)
+[2023.06.02-19.59.13:184][455]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-19.59.13:189][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005218s)
+[2023.06.02-19.59.13:189][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.005247s)
+[2023.06.02-19.59.13:189][455]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-19.59.13:189][455]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-19.59.13:191][455]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2023.06.02-19.59.13:243][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.06.02-19.59.13:244][455]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.06.02-19.59.13:244][455]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-19.59.13:244][455]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-19.59.13:244][455]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-19.59.13:244][455]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-19.59.13:245][455]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-19.59.13:245][455]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-19.59.13:245][455]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-19.59.13:245][455]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-19.59.13:245][455]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-19.59.13:245][455]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-19.59.13:245][455]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-19.59.13:247][455]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-19.59.13:257][455]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-19.59.13:257][455]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-19.59.13:257][455]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-19.59.13:257][455]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-19.59.13:258][455]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.06.02-19.59.13:259][455]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.06.02-19.59.13:260][455]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.06.02-19.59.13:260][455]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.06.02-19.59.13:260][455]LogInit: FAudioDevice initialized.
+[2023.06.02-19.59.13:260][455]LogAudio: Display: Audio Device (ID: 28) registered with world 'Tutorial'.
+[2023.06.02-19.59.13:273][455]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-19.59.13:463][455]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-19.59.13:465][455]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-12.59.13
+[2023.06.02-19.59.13:465][455]LogWorld: Bringing up level for play took: 0.002126
+[2023.06.02-19.59.13:470][455]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2023.06.02-19.59.13:474][455]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-19.59.13:475][455]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-19.59.13:476][455]Cmd: vr.PixelDensity 1.0
+[2023.06.02-19.59.13:476][455]vr.PixelDensity = "1"
+[2023.06.02-19.59.13:484][455]PIE: Server logged in
+[2023.06.02-19.59.13:488][455]PIE: Play in editor total start time 0.561 seconds.
+[2023.06.02-19.59.13:525][455]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-19.59.13:534][455]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-19.59.13:551][455]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-19.59.13:595][456]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.59.13:595][456]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-19.59.17:389][564]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.59.18:024][579]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.59.19:002][608]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.59.20:160][645]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-19.59.24:124][776]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:149][777]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.06.02-19.59.24:152][777]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:199][778]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:224][779]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:249][780]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:275][781]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:302][782]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:328][783]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:357][784]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:384][785]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:412][786]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:440][787]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:468][788]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:496][789]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:525][790]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:553][791]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:569][792]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:595][793]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:621][794]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:637][795]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:662][796]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:677][797]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:702][798]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:717][799]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:742][800]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:767][801]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:781][802]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:807][803]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:835][804]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:848][805]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:874][806]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:901][807]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:913][808]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:939][809]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:955][810]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.24:980][811]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:007][812]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:021][813]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:047][814]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:073][815]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:088][816]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:112][817]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:139][818]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:166][819]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:179][820]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:204][821]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:220][822]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:245][823]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:272][824]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:298][825]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:310][826]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:339][827]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:354][828]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:379][829]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:404][830]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:430][831]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:446][832]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:470][833]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:497][834]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:524][835]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:538][836]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:563][837]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:591][838]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:615][839]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:638][840]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:663][841]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:688][842]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:715][843]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:742][844]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:771][845]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:800][846]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:824][847]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:846][848]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:869][849]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:893][850]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:918][851]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:944][852]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:970][853]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.25:994][854]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:019][855]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:069][856]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:092][857]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:114][858]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:137][859]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:192][860]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:220][861]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:246][862]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:273][863]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:298][864]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:325][865]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:350][866]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:401][867]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:422][868]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:444][869]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:477][870]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:505][871]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:554][872]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:581][873]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:607][874]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:634][875]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:658][876]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:684][877]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:735][878]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:757][879]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:779][880]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:806][881]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:857][882]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:886][883]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:909][884]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:932][885]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:956][886]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.26:981][887]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:008][888]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:035][889]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:063][890]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:090][891]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:117][892]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:145][893]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:171][894]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:196][895]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:222][896]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:248][897]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:275][898]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:301][899]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:326][900]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:352][901]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:378][902]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:407][903]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:432][904]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:459][905]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:484][906]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:535][907]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:560][908]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:585][909]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:611][910]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:636][911]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:662][912]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:688][913]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:713][914]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:741][915]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:790][916]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:814][917]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:837][918]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:862][919]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:885][920]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:912][921]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:947][922]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.27:975][923]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:003][924]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:031][925]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:056][926]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:081][927]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:130][928]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:153][929]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:175][930]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:198][931]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:221][932]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:272][933]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:294][934]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:316][935]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:344][936]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:373][937]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:401][938]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:428][939]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:456][940]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:483][941]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:511][942]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:539][943]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:568][944]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:596][945]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:646][946]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:673][947]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:699][948]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:725][949]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:751][950]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:776][951]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:801][952]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:827][953]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:852][954]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:882][955]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:907][956]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:958][957]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.28:983][958]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:007][959]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:033][960]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:058][961]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:084][962]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:108][963]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:134][964]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:184][965]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:209][966]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:231][967]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:256][968]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:280][969]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:305][970]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:331][971]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:356][972]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:383][973]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:409][974]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:435][975]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:462][976]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:489][977]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:517][978]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:542][979]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:569][980]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:594][981]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:620][982]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:648][983]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:674][984]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:691][985]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:718][986]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:746][987]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:771][988]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:797][989]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:823][990]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:849][991]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:876][992]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:903][993]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:932][994]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:960][995]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.29:988][996]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.30:016][997]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.30:066][998]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.30:092][999]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.30:118][  0]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.30:144][  1]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.30:170][  2]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.30:196][  3]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.30:222][  4]LogBlueprintUserMessages: [RockWidget_C_0] Hello
+[2023.06.02-19.59.40:718][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-19.59.40:718][382]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-19.59.40:795][382]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-19.59.40:798][382]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-19.59.40:799][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-19.59.40:803][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-19.59.40:815][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-19.59.40:882][382]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-19.59.40:882][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.06.02-19.59.40:884][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.06.02-19.59.40:894][382]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-19.59.40:894][382]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-19.59.40:897][382]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.06.02-19.59.40:953][383]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2023.06.02-19.59.46:700][617]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-19.59.46:809][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.06.02-19.59.46:866][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.59.46:929][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.59.46:941][617]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.59.46:941][617]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget7EF5B0824E5045FCA124FE82242DE093.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.59.46:948][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 7.88 sec)
+[2023.06.02-19.59.46:958][617]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.59.46:958][617]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-19.59.47:209][628]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-19.59.47:270][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-19.59.47:281][628]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-19.59.47:282][628]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidgetD6D43B634158315D0FF097807EC4C637.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-19.59.47:289][628]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 7.96 sec)
+[2023.06.02-19.59.47:297][628]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-19.59.47:297][628]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-20.00.27:371][332]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Rocks/Rock4.Rock4
+[2023.06.02-20.00.27:373][332]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.00.28:004][333]LogSlate: Took 0.003084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NotoColorEmoji.ttf' (7610K)
+[2023.06.02-20.00.32:543][515]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.00.32:543][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.01.17:974][837]LogEditorTransaction: Undo Delete current selection
+[2023.06.02-20.01.43:862][902]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-20.01.43:984][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.06.02-20.01.44:126][902]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.01.44:192][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-20.01.44:204][902]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-20.01.44:205][902]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget120937CE4BB17F9EEF2F1DAAAAC87082.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-20.01.44:211][902]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 8.05 sec)
+[2023.06.02-20.01.44:220][902]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-20.01.44:220][902]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-20.01.44:417][911]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.01.44:475][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-20.01.44:487][911]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-20.01.44:488][911]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget29189C1541DDFFDD48914A8051E0FFAD.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-20.01.44:494][911]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 8.12 sec)
+[2023.06.02-20.01.44:503][911]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-20.01.44:503][911]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-20.01.46:105][975]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.01.46:114][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-20.01.46:114][975]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:01:46 a.m.)
+[2023.06.02-20.01.46:114][975]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.01.46:122][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008405s)
+[2023.06.02-20.01.46:122][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.008443s)
+[2023.06.02-20.01.46:122][975]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.01.46:123][975]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.01.46:123][975]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2023.06.02-20.01.46:189][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.06.02-20.01.46:192][975]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.06.02-20.01.46:192][975]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.01.46:192][975]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.01.46:192][975]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.01.46:192][975]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.01.46:192][975]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.01.46:192][975]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.01.46:192][975]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.01.46:192][975]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.01.46:192][975]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.01.46:192][975]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.01.46:192][975]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.01.46:195][975]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.01.46:205][975]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.01.46:205][975]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.01.46:205][975]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.01.46:205][975]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.01.46:206][975]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.06.02-20.01.46:207][975]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2023.06.02-20.01.46:208][975]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.06.02-20.01.46:208][975]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.06.02-20.01.46:208][975]LogInit: FAudioDevice initialized.
+[2023.06.02-20.01.46:208][975]LogAudio: Display: Audio Device (ID: 29) registered with world 'Tutorial'.
+[2023.06.02-20.01.46:236][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.01.46:428][975]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.01.46:431][975]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.01.46
+[2023.06.02-20.01.46:432][975]LogWorld: Bringing up level for play took: 0.003195
+[2023.06.02-20.01.46:436][975]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2023.06.02-20.01.46:439][975]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.01.46:441][975]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.01.46:442][975]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.01.46:442][975]vr.PixelDensity = "1"
+[2023.06.02-20.01.46:451][975]PIE: Server logged in
+[2023.06.02-20.01.46:455][975]PIE: Play in editor total start time 0.341 seconds.
+[2023.06.02-20.01.46:469][975]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.01.46:478][975]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.01.46:495][975]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.01.50:247][ 77]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.01.50:809][ 90]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.01.51:397][104]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.01.51:988][120]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.01.58:960][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.01.58:960][396]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.01.59:026][396]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.01.59:030][396]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.01.59:030][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.01.59:034][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.01.59:042][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.01.59:099][396]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.02-20.01.59:100][396]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.01.59:100][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.06.02-20.01.59:102][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.06.02-20.01.59:107][396]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.01.59:107][396]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.01.59:108][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.06.02-20.01.59:162][397]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2023.06.02-20.02.13:082][958]BlueprintLog: New page: Compile VRPawn
+[2023.06.02-20.02.13:281][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.06.02-20.02.13:414][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.02.13:475][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.02-20.02.13:577][958]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.02-20.02.13:578][958]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawnA8AE77214555AF0F14D689ADE3737160.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.02-20.02.13:587][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 8.30 sec)
+[2023.06.02-20.02.13:598][958]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.02-20.02.13:598][958]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.02-20.03.59:989][667]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-20.03.59:989][667]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-20.04.43:164][448]LogDerivedDataCache: C:/Users/300339869/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:29.246 and deleted 0 files with total size 0 MiB. Scanned 15242 files in 14764 folders with total size 3413 MiB.
+[2023.06.02-20.06.04:750][770]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-20.06.04:899][770]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2023.06.02-20.06.05:095][770]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.06.05:157][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-20.06.05:170][770]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-20.06.05:170][770]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget4A98D38C48D91D93DA971F9C66878D84.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-20.06.05:179][770]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 8.38 sec)
+[2023.06.02-20.06.05:197][770]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-20.06.05:197][770]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-20.07.15:084][566]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-20.07.15:234][566]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2023.06.02-20.07.15:351][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.07.15:430][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-20.07.15:447][566]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-20.07.15:448][566]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget3234280145C72E3A43406798066AB83A.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-20.07.15:458][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 8.49 sec)
+[2023.06.02-20.07.15:482][566]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-20.07.15:482][566]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-20.07.15:725][572]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.07.15:797][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-20.07.15:811][572]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-20.07.15:812][572]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget11F6C7074798552BF746058E30F7F484.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-20.07.15:820][572]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 8.58 sec)
+[2023.06.02-20.07.15:830][572]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-20.07.15:830][572]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-20.07.58:313][210]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-20.07.58:431][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.06.02-20.07.58:494][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.07.58:556][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-20.07.58:569][210]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-20.07.58:570][210]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget2F11B7F64CE919251DAA7F83FD176E32.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-20.07.58:577][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 8.67 sec)
+[2023.06.02-20.07.58:586][210]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-20.07.58:587][210]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-20.08.21:438][ 52]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-20.08.21:571][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.06.02-20.08.21:653][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.08.21:711][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-20.08.21:728][ 52]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-20.08.21:728][ 52]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidgetF0D9060F444ACC24167CFFA62E12205F.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-20.08.21:737][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 8.75 sec)
+[2023.06.02-20.08.21:747][ 52]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-20.08.21:747][ 52]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-20.08.21:876][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.08.21:937][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-20.08.21:953][ 55]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-20.08.21:954][ 55]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget4993CB19487BBEDB5172EB967F15A75F.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-20.08.21:963][ 55]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 8.84 sec)
+[2023.06.02-20.08.21:972][ 55]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-20.08.21:972][ 55]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-20.08.26:029][213]BlueprintLog: New page: Compile RockWidget
+[2023.06.02-20.08.26:170][213]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.06.02-20.08.26:660][229]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.08.26:729][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.02-20.08.26:747][229]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.02-20.08.26:747][229]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget1345491944E272E27880CFA92DA13E6B.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.02-20.08.26:755][229]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 8.93 sec)
+[2023.06.02-20.08.26:768][229]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.02-20.08.26:768][229]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.02-20.08.28:322][293]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.08.28:331][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-20.08.28:331][293]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:08:28 a.m.)
+[2023.06.02-20.08.28:331][293]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.08.28:339][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008233s)
+[2023.06.02-20.08.28:339][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.008278s)
+[2023.06.02-20.08.28:339][293]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.08.28:339][293]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.08.28:340][293]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2023.06.02-20.08.28:410][293]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2023.06.02-20.08.28:414][293]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2023.06.02-20.08.28:414][293]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.08.28:414][293]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.08.28:414][293]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.08.28:414][293]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.08.28:414][293]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.08.28:414][293]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.08.28:414][293]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.08.28:414][293]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.08.28:414][293]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.08.28:414][293]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.08.28:414][293]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.08.28:417][293]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.08.28:431][293]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.08.28:431][293]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.08.28:431][293]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.08.28:431][293]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.08.28:432][293]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2023.06.02-20.08.28:432][293]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2023.06.02-20.08.28:434][293]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2023.06.02-20.08.28:434][293]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2023.06.02-20.08.28:434][293]LogInit: FAudioDevice initialized.
+[2023.06.02-20.08.28:434][293]LogAudio: Display: Audio Device (ID: 30) registered with world 'Tutorial'.
+[2023.06.02-20.08.28:466][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.08.28:677][293]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.08.28:680][293]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.08.28
+[2023.06.02-20.08.28:681][293]LogWorld: Bringing up level for play took: 0.002787
+[2023.06.02-20.08.28:687][293]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2023.06.02-20.08.28:690][293]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.08.28:693][293]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.08.28:694][293]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.08.28:694][293]vr.PixelDensity = "1"
+[2023.06.02-20.08.28:705][293]PIE: Server logged in
+[2023.06.02-20.08.28:710][293]PIE: Play in editor total start time 0.38 seconds.
+[2023.06.02-20.08.28:737][293]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.08.28:749][293]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.08.28:779][293]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.08.32:001][374]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.08.32:630][389]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.08.43:443][728]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.08.44:050][745]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.08.45:878][798]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.08.48:332][878]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.09.00:698][350]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.09.01:210][365]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.09.05:772][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.09.05:772][515]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.09.05:830][515]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.09.05:834][515]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.09.05:834][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.09.05:838][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.09.05:846][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.09.05:908][515]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.02-20.09.05:909][515]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.09.05:909][515]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.06.02-20.09.05:910][515]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.06.02-20.09.05:917][515]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.09.05:917][515]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.09.05:919][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2023.06.02-20.09.05:977][516]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2023.06.02-20.10.33:765][ 41]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.10.33:773][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-20.10.33:773][ 41]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:10:33 a.m.)
+[2023.06.02-20.10.33:773][ 41]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.10.33:779][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005661s)
+[2023.06.02-20.10.33:779][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.005694s)
+[2023.06.02-20.10.33:779][ 41]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.10.33:779][ 41]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.10.33:780][ 41]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2023.06.02-20.10.33:840][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.06.02-20.10.33:842][ 41]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2023.06.02-20.10.33:842][ 41]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.10.33:842][ 41]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.10.33:842][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.10.33:842][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.10.33:842][ 41]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.10.33:842][ 41]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.10.33:842][ 41]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.10.33:842][ 41]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.10.33:843][ 41]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.10.33:843][ 41]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.10.33:843][ 41]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.10.33:845][ 41]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.10.33:854][ 41]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.10.33:855][ 41]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.10.33:855][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.10.33:855][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.10.33:856][ 41]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2023.06.02-20.10.33:856][ 41]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2023.06.02-20.10.33:858][ 41]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2023.06.02-20.10.33:858][ 41]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2023.06.02-20.10.33:858][ 41]LogInit: FAudioDevice initialized.
+[2023.06.02-20.10.33:858][ 41]LogAudio: Display: Audio Device (ID: 31) registered with world 'Tutorial'.
+[2023.06.02-20.10.33:914][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.10.34:140][ 41]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.10.34:143][ 41]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.10.34
+[2023.06.02-20.10.34:143][ 41]LogWorld: Bringing up level for play took: 0.002155
+[2023.06.02-20.10.34:147][ 41]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2023.06.02-20.10.34:152][ 41]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.10.34:156][ 41]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.10.34:157][ 41]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.10.34:157][ 41]vr.PixelDensity = "1"
+[2023.06.02-20.10.34:167][ 41]PIE: Server logged in
+[2023.06.02-20.10.34:172][ 41]PIE: Play in editor total start time 0.4 seconds.
+[2023.06.02-20.10.34:189][ 41]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.10.34:199][ 41]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.10.34:216][ 41]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.10.35:353][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.10.35:354][ 74]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.10.35:419][ 74]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.10.35:420][ 74]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.10.35:421][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.10.35:423][ 74]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.10.35:433][ 74]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.10.35:492][ 74]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.10.35:492][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.06.02-20.10.35:494][ 74]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.06.02-20.10.35:500][ 74]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.10.35:500][ 74]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.10.35:503][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.06.02-20.10.35:561][ 75]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2023.06.02-20.12.00:496][523]BlueprintLog: New page: Compile VRPawn
+[2023.06.02-20.12.00:714][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.06.02-20.12.00:871][523]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.12.00:951][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.02-20.12.01:062][523]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.02-20.12.01:063][523]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawnF6D083464651CD38006B828BA109F656.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.02-20.12.01:070][523]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 9.13 sec)
+[2023.06.02-20.12.01:081][523]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.02-20.12.01:081][523]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.02-20.12.11:754][897]LogEditorTransaction: Undo Move Node
+[2023.06.02-20.12.26:003][368]LogEditorTransaction: Undo Move Node
+[2023.06.02-20.12.32:585][609]LogEditorTransaction: Undo Create Pin Link
+[2023.06.02-20.12.33:011][610]LogEditorTransaction: Undo Create Pin Link
+[2023.06.02-20.12.33:957][634]LogEditorTransaction: Undo Move Nodes
+[2023.06.02-20.12.38:624][789]LogEditorTransaction: Undo Resize Node
+[2023.06.02-20.12.57:618][464]BlueprintLog: New page: Compile VRPawn
+[2023.06.02-20.12.57:824][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2023.06.02-20.12.57:977][464]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.12.58:042][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.02-20.12.58:152][464]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.02-20.12.58:153][464]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawnBC804F6A48A9C97037A8D4AE876835EA.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.02-20.12.58:162][464]LogFileHelpers: InternalPromptForCheckoutAndSave took 185 ms (total: 9.31 sec)
+[2023.06.02-20.12.58:174][464]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.02-20.12.58:174][464]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.02-20.12.59:245][500]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.12.59:315][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.02-20.12.59:423][500]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.02-20.12.59:423][500]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawn5AE0452D45ADB6DA4637B2A5A9F95044.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.02-20.12.59:431][500]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 9.50 sec)
+[2023.06.02-20.12.59:448][500]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.02-20.12.59:448][500]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.02-20.13.00:607][551]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.13.00:614][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-20.13.00:614][551]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:13:00 a.m.)
+[2023.06.02-20.13.00:614][551]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.13.00:622][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006647s)
+[2023.06.02-20.13.00:622][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.006685s)
+[2023.06.02-20.13.00:622][551]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.13.00:622][551]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.13.00:623][551]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2023.06.02-20.13.00:679][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.06.02-20.13.00:683][551]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2023.06.02-20.13.00:683][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.13.00:683][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.13.00:683][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.13.00:683][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.13.00:683][551]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.13.00:683][551]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.13.00:683][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.13.00:683][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.13.00:683][551]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.13.00:683][551]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.13.00:683][551]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.13.00:685][551]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.13.00:695][551]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.13.00:696][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.13.00:696][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.13.00:696][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.13.00:696][551]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2023.06.02-20.13.00:696][551]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2023.06.02-20.13.00:698][551]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2023.06.02-20.13.00:698][551]LogInit: FAudioDevice initialized.
+[2023.06.02-20.13.00:698][551]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2023.06.02-20.13.00:698][551]LogAudio: Display: Audio Device (ID: 32) registered with world 'Tutorial'.
+[2023.06.02-20.13.00:722][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.13.00:921][551]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.13.00:923][551]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.13.00
+[2023.06.02-20.13.00:923][551]LogWorld: Bringing up level for play took: 0.002320
+[2023.06.02-20.13.00:930][551]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2023.06.02-20.13.00:932][551]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.13.00:935][551]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.13.00:936][551]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.13.00:936][551]vr.PixelDensity = "1"
+[2023.06.02-20.13.00:951][551]PIE: Server logged in
+[2023.06.02-20.13.00:961][551]PIE: Play in editor total start time 0.347 seconds.
+[2023.06.02-20.13.00:980][551]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.13.00:988][551]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.13.01:005][551]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.13.04:538][638]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.13.05:013][650]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.13.05:707][668]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.13.21:060][ 95]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.13.21:633][110]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.13.22:335][129]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.13.33:063][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.13.33:063][511]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.13.33:151][511]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.13.33:154][511]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.13.33:155][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.13.33:158][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.13.33:168][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.13.33:226][511]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.02-20.13.33:226][511]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.13.33:226][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2023.06.02-20.13.33:228][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2023.06.02-20.13.33:234][511]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.13.33:234][511]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.13.33:237][511]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.06.02-20.13.33:296][512]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2023.06.02-20.13.57:869][519]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-20.13.57:869][519]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.06.02-20.14.16:367][216]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.14.16:375][216]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.02-20.14.16:380][216]LogPlayLevel: [PlayLevel] Compiling JournalWidget before play...
+[2023.06.02-20.14.16:644][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.14.16:774][216]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.02-20.14.16:775][216]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidget265642BF4CCD91EFD8E976B5306325E3.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.02-20.14.16:783][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 9.64 sec)
+[2023.06.02-20.14.16:841][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.06.02-20.14.16:844][216]LogPlayLevel: PlayLevel: Blueprint regeneration took 469 ms (1 blueprints)
+[2023.06.02-20.14.16:844][216]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:14:16 a.m.)
+[2023.06.02-20.14.16:844][216]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.14.16:849][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005032s)
+[2023.06.02-20.14.16:849][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.005059s)
+[2023.06.02-20.14.16:849][216]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.14.16:849][216]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.14.16:850][216]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2023.06.02-20.14.16:903][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.06.02-20.14.16:905][216]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2023.06.02-20.14.16:905][216]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.14.16:905][216]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.14.16:905][216]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.14.16:905][216]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.14.16:905][216]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.14.16:905][216]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.14.16:905][216]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.14.16:905][216]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.14.16:906][216]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.14.16:906][216]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.14.16:906][216]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.14.16:908][216]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.14.16:917][216]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.14.16:917][216]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.14.16:917][216]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.14.16:917][216]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.14.16:918][216]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2023.06.02-20.14.16:918][216]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2023.06.02-20.14.16:920][216]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2023.06.02-20.14.16:920][216]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2023.06.02-20.14.16:920][216]LogInit: FAudioDevice initialized.
+[2023.06.02-20.14.16:920][216]LogAudio: Display: Audio Device (ID: 33) registered with world 'Tutorial'.
+[2023.06.02-20.14.16:933][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.14.17:126][216]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.14.17:128][216]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.14.17
+[2023.06.02-20.14.17:128][216]LogWorld: Bringing up level for play took: 0.002564
+[2023.06.02-20.14.17:132][216]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.06.02-20.14.17:137][216]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.14.17:140][216]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.14.17:141][216]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.14.17:141][216]vr.PixelDensity = "1"
+[2023.06.02-20.14.17:149][216]PIE: Server logged in
+[2023.06.02-20.14.17:153][216]PIE: Play in editor total start time 0.778 seconds.
+[2023.06.02-20.14.17:247][216]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.14.17:256][216]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.14.17:274][216]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.14.17:327][217]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.02-20.14.17:327][217]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.02-20.14.20:590][297]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.14.21:053][309]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.14.21:438][319]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.14.21:759][327]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.14.22:023][334]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.14.22:287][341]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.14.22:651][351]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.14.23:255][368]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.14.23:953][387]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.14.44:715][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.14.44:715][ 16]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.14.44:786][ 16]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.14.44:788][ 16]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.14.44:788][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.14.44:791][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.14.44:803][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.14.44:861][ 16]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.14.44:861][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.06.02-20.14.44:863][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2023.06.02-20.14.44:868][ 16]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.14.44:868][ 16]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.14.44:870][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.06.02-20.14.44:925][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.06.02-20.14.54:632][324]BlueprintLog: New page: Compile JournalWidget
+[2023.06.02-20.14.54:773][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.06.02-20.14.54:873][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.14.54:994][324]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.02-20.14.54:994][324]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidget083B7535429A7015407175AA6C9E7610.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.02-20.14.55:002][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 9.77 sec)
+[2023.06.02-20.14.55:012][324]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.02-20.14.55:012][324]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.02-20.14.55:329][337]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.14.55:436][337]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.02-20.14.55:437][337]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidgetB3E2F54540B96CCD2DA16182B398FE84.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.02-20.14.55:443][337]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 9.88 sec)
+[2023.06.02-20.14.55:453][337]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.02-20.14.55:453][337]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.02-20.15.17:822][280]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.15.17:830][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-20.15.17:830][280]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:15:17 a.m.)
+[2023.06.02-20.15.17:830][280]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.15.17:839][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007974s)
+[2023.06.02-20.15.17:839][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.008017s)
+[2023.06.02-20.15.17:839][280]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.15.17:839][280]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.15.17:840][280]LogPlayLevel: PIE: World Init took: (0.000899s)
+[2023.06.02-20.15.17:918][280]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.06.02-20.15.17:925][280]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2023.06.02-20.15.17:925][280]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.15.17:925][280]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.15.17:925][280]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.15.17:925][280]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.15.17:925][280]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.15.17:925][280]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.15.17:925][280]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.15.17:925][280]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.15.17:926][280]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.15.17:926][280]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.15.17:926][280]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.15.17:928][280]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.15.17:942][280]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.15.17:942][280]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.15.17:942][280]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.15.17:942][280]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.15.17:942][280]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2023.06.02-20.15.17:942][280]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2023.06.02-20.15.17:945][280]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2023.06.02-20.15.17:945][280]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2023.06.02-20.15.17:945][280]LogInit: FAudioDevice initialized.
+[2023.06.02-20.15.17:945][280]LogAudio: Display: Audio Device (ID: 34) registered with world 'Tutorial'.
+[2023.06.02-20.15.17:974][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.15.18:177][280]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.15.18:180][280]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.15.18
+[2023.06.02-20.15.18:180][280]LogWorld: Bringing up level for play took: 0.002424
+[2023.06.02-20.15.18:185][280]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2023.06.02-20.15.18:189][280]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.15.18:192][280]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.15.18:193][280]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.15.18:194][280]vr.PixelDensity = "1"
+[2023.06.02-20.15.18:204][280]PIE: Server logged in
+[2023.06.02-20.15.18:209][280]PIE: Play in editor total start time 0.379 seconds.
+[2023.06.02-20.15.18:224][280]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.15.18:235][280]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.15.18:251][280]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.15.23:829][429]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.15.24:401][444]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.15.24:648][450]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.15.25:038][461]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.15.35:265][789]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.15.35:265][789]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.15.35:336][789]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.15.35:339][789]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.15.35:340][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.15.35:344][789]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.15.35:355][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.15.35:431][789]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.02-20.15.35:431][789]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.15.35:431][789]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.06.02-20.15.35:434][789]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2023.06.02-20.15.35:441][789]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.15.35:441][789]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.15.35:444][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2023.06.02-20.15.35:517][790]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2023.06.02-20.16.55:099][226]LogEditorTransaction: Undo Move Node
+[2023.06.02-20.16.55:719][239]LogEditorTransaction: Undo Create Pin Link
+[2023.06.02-20.16.56:328][253]LogEditorTransaction: Undo Move Node
+[2023.06.02-20.16.56:917][266]LogEditorTransaction: Undo Split Struct Pin
+[2023.06.02-20.16.57:522][279]LogEditorTransaction: Undo Add Node
+[2023.06.02-20.17.07:359][652]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.17.07:367][652]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.02-20.17.07:388][652]LogPlayLevel: [PlayLevel] Compiling VRPawn before play...
+[2023.06.02-20.17.07:673][652]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.17.07:744][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.02-20.17.07:856][652]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.02-20.17.07:856][652]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawn4EC7046C4B82E5D61743E6941DB38AE7.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.02-20.17.07:865][652]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 10.0 sec)
+[2023.06.02-20.17.07:934][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.06.02-20.17.07:936][652]LogPlayLevel: PlayLevel: Blueprint regeneration took 568 ms (1 blueprints)
+[2023.06.02-20.17.07:936][652]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:17:07 a.m.)
+[2023.06.02-20.17.07:936][652]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.17.07:941][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004954s)
+[2023.06.02-20.17.07:941][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.004997s)
+[2023.06.02-20.17.07:942][652]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.17.07:942][652]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.17.07:942][652]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2023.06.02-20.17.08:000][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2023.06.02-20.17.08:002][652]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2023.06.02-20.17.08:002][652]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.17.08:002][652]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.17.08:002][652]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.17.08:002][652]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.17.08:002][652]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.17.08:002][652]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.17.08:002][652]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.17.08:002][652]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.17.08:003][652]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.17.08:003][652]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.17.08:003][652]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.17.08:005][652]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.17.08:016][652]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.17.08:016][652]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.17.08:016][652]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.17.08:016][652]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.17.08:018][652]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2023.06.02-20.17.08:018][652]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2023.06.02-20.17.08:019][652]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2023.06.02-20.17.08:019][652]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2023.06.02-20.17.08:019][652]LogInit: FAudioDevice initialized.
+[2023.06.02-20.17.08:019][652]LogAudio: Display: Audio Device (ID: 35) registered with world 'Tutorial'.
+[2023.06.02-20.17.08:033][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.17.08:233][652]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.17.08:236][652]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.17.08
+[2023.06.02-20.17.08:237][652]LogWorld: Bringing up level for play took: 0.003430
+[2023.06.02-20.17.08:240][652]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2023.06.02-20.17.08:242][652]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.17.08:245][652]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.17.08:246][652]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.17.08:246][652]vr.PixelDensity = "1"
+[2023.06.02-20.17.08:255][652]PIE: Server logged in
+[2023.06.02-20.17.08:259][652]PIE: Play in editor total start time 0.892 seconds.
+[2023.06.02-20.17.08:432][652]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.17.08:444][652]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.17.08:468][652]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.17.08:530][653]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.02-20.17.08:530][653]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.02-20.17.12:141][757]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.13:147][782]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.13:517][792]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.13:850][802]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.14:320][816]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.14:893][834]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.23:747][125]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.17.23:747][125]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.17.23:830][125]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.17.23:832][125]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.17.23:832][125]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.17.23:836][125]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.17.23:844][125]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.17.23:902][125]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.17.23:902][125]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.06.02-20.17.23:903][125]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2023.06.02-20.17.23:909][125]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.17.23:909][125]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.17.23:911][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.06.02-20.17.23:967][126]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2023.06.02-20.17.33:895][520]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.17.33:903][520]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.02-20.17.33:912][520]LogPlayLevel: [PlayLevel] Compiling VRPawn before play...
+[2023.06.02-20.17.34:183][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.17.34:269][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.02-20.17.34:378][520]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.02-20.17.34:379][520]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawn658D85A34197268EA5FF2791F9E96347.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.02-20.17.34:386][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 203 ms (total: 10.2 sec)
+[2023.06.02-20.17.34:448][520]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.06.02-20.17.34:455][520]LogPlayLevel: PlayLevel: Blueprint regeneration took 551 ms (1 blueprints)
+[2023.06.02-20.17.34:455][520]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:17:34 a.m.)
+[2023.06.02-20.17.34:455][520]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.17.34:460][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005131s)
+[2023.06.02-20.17.34:460][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.005173s)
+[2023.06.02-20.17.34:460][520]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.17.34:460][520]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.17.34:460][520]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2023.06.02-20.17.34:521][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.06.02-20.17.34:523][520]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.06.02-20.17.34:523][520]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.17.34:523][520]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.17.34:523][520]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.17.34:523][520]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.17.34:523][520]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.17.34:523][520]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.17.34:523][520]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.17.34:523][520]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.17.34:524][520]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.17.34:524][520]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.17.34:524][520]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.17.34:526][520]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.17.34:535][520]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.17.34:535][520]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.17.34:536][520]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.17.34:536][520]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.17.34:536][520]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2023.06.02-20.17.34:536][520]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2023.06.02-20.17.34:538][520]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2023.06.02-20.17.34:538][520]LogInit: FAudioDevice initialized.
+[2023.06.02-20.17.34:538][520]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2023.06.02-20.17.34:538][520]LogAudio: Display: Audio Device (ID: 36) registered with world 'Tutorial'.
+[2023.06.02-20.17.34:552][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.17.34:748][520]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.17.34:750][520]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.17.34
+[2023.06.02-20.17.34:751][520]LogWorld: Bringing up level for play took: 0.002303
+[2023.06.02-20.17.34:752][520]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2023.06.02-20.17.34:759][520]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.17.34:764][520]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.17.34:766][520]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.17.34:766][520]vr.PixelDensity = "1"
+[2023.06.02-20.17.34:776][520]PIE: Server logged in
+[2023.06.02-20.17.34:780][520]PIE: Play in editor total start time 0.877 seconds.
+[2023.06.02-20.17.34:947][520]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.17.34:959][520]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.17.34:978][520]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.17.35:035][521]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.02-20.17.35:035][521]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.02-20.17.36:891][567]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.37:431][581]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.37:829][591]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.38:253][602]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.38:787][618]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.43:489][767]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.46:216][854]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.17.51:288][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.17.51:288][ 13]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.17.51:382][ 13]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.17.51:384][ 13]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.17.51:385][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.17.51:388][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.17.51:398][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.17.51:458][ 13]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.17.51:458][ 13]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.06.02-20.17.51:459][ 13]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.06.02-20.17.51:466][ 13]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.17.51:466][ 13]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.17.51:468][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.06.02-20.17.51:528][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2023.06.02-20.18.13:509][956]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.18.13:516][956]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.02-20.18.13:521][956]LogPlayLevel: [PlayLevel] Compiling VRPawn before play...
+[2023.06.02-20.18.13:799][956]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.18.13:871][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.02-20.18.13:978][956]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.02-20.18.13:979][956]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawn6C048BC0471C2C9B6FFD06B186DE3D02.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.02-20.18.13:987][956]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 10.4 sec)
+[2023.06.02-20.18.14:049][956]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2023.06.02-20.18.14:052][956]LogPlayLevel: PlayLevel: Blueprint regeneration took 535 ms (1 blueprints)
+[2023.06.02-20.18.14:052][956]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:18:14 a.m.)
+[2023.06.02-20.18.14:053][956]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.18.14:057][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004846s)
+[2023.06.02-20.18.14:057][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.004873s)
+[2023.06.02-20.18.14:057][956]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.18.14:057][956]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.18.14:058][956]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2023.06.02-20.18.14:111][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.06.02-20.18.14:113][956]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.06.02-20.18.14:113][956]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.18.14:113][956]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.18.14:113][956]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.18.14:113][956]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.18.14:113][956]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.18.14:113][956]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.18.14:113][956]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.18.14:113][956]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.18.14:114][956]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.18.14:114][956]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.18.14:114][956]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.18.14:116][956]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.18.14:127][956]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.18.14:127][956]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.18.14:127][956]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.18.14:127][956]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.18.14:128][956]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.06.02-20.18.14:128][956]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.06.02-20.18.14:130][956]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.06.02-20.18.14:130][956]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.06.02-20.18.14:130][956]LogInit: FAudioDevice initialized.
+[2023.06.02-20.18.14:130][956]LogAudio: Display: Audio Device (ID: 37) registered with world 'Tutorial'.
+[2023.06.02-20.18.14:147][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.18.14:340][956]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.18.14:342][956]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.18.14
+[2023.06.02-20.18.14:342][956]LogWorld: Bringing up level for play took: 0.002217
+[2023.06.02-20.18.14:344][956]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2023.06.02-20.18.14:351][956]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.18.14:353][956]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.18.14:354][956]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.18.14:354][956]vr.PixelDensity = "1"
+[2023.06.02-20.18.14:363][956]PIE: Server logged in
+[2023.06.02-20.18.14:365][956]PIE: Play in editor total start time 0.85 seconds.
+[2023.06.02-20.18.14:542][956]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.18.14:552][956]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.18.14:570][956]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.18.14:629][957]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.02-20.18.14:629][957]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.02-20.18.17:170][ 31]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.18.17:628][ 42]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.18.18:131][ 56]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.18.27:343][353]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.18.54:647][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.18.54:647][291]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.18.54:741][291]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.18.54:745][291]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.18.54:746][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.18.54:748][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.18.54:759][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.18.54:825][291]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.18.54:825][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.06.02-20.18.54:828][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.06.02-20.18.54:834][291]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.18.54:834][291]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.18.54:838][291]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2023.06.02-20.18.54:902][292]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2023.06.02-20.22.20:012][656]BlueprintLog: New page: Compile VRPawn
+[2023.06.02-20.22.20:211][656]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.06.02-20.22.20:362][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.22.20:444][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.02-20.22.20:561][656]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.02-20.22.20:561][656]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawnF9C50C484984B1494461BAA04ABF2B8B.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.02-20.22.20:570][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 207 ms (total: 10.6 sec)
+[2023.06.02-20.22.20:582][656]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.02-20.22.20:582][656]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.02-20.23.15:120][277]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.23.15:223][277]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.06.02-20.23.15:247][277]LogSavePackage: Moving output files for package: /Game/Levels/Tutorial
+[2023.06.02-20.23.15:248][277]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/Tutorial1FC003FF4E8E7B2FC60C169AE0DAE887.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Levels/Tutorial.umap'
+[2023.06.02-20.23.15:270][277]LogFileHelpers: No new changes to save!
+[2023.06.02-20.23.15:270][277]LogFileHelpers: Saving map 'Tutorial' took 0.120
+[2023.06.02-20.23.15:277][277]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 10.8 sec)
+[2023.06.02-20.23.15:287][277]AssetCheck: New page: Asset Save: Tutorial
+[2023.06.02-20.23.15:287][277]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Tutorial.Tutorial
+[2023.06.02-20.23.18:932][425]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.23.18:941][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-20.23.18:941][425]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:23:18 a.m.)
+[2023.06.02-20.23.18:941][425]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.23.18:949][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007549s)
+[2023.06.02-20.23.18:949][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.007594s)
+[2023.06.02-20.23.18:949][425]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.23.18:950][425]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.23.18:950][425]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2023.06.02-20.23.19:027][425]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.06.02-20.23.19:031][425]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.06.02-20.23.19:031][425]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.23.19:031][425]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.23.19:031][425]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.23.19:031][425]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.23.19:031][425]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.23.19:031][425]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.23.19:031][425]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.23.19:031][425]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.23.19:032][425]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.23.19:032][425]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.23.19:032][425]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.23.19:034][425]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.23.19:048][425]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.23.19:048][425]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.23.19:048][425]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.23.19:048][425]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.23.19:049][425]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.06.02-20.23.19:049][425]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2023.06.02-20.23.19:051][425]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.06.02-20.23.19:051][425]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.06.02-20.23.19:051][425]LogInit: FAudioDevice initialized.
+[2023.06.02-20.23.19:051][425]LogAudio: Display: Audio Device (ID: 38) registered with world 'Tutorial'.
+[2023.06.02-20.23.19:066][425]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.23.19:268][425]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.23.19:271][425]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.23.19
+[2023.06.02-20.23.19:271][425]LogWorld: Bringing up level for play took: 0.002614
+[2023.06.02-20.23.19:276][425]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2023.06.02-20.23.19:279][425]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.23.19:282][425]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.23.19:283][425]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.23.19:283][425]vr.PixelDensity = "1"
+[2023.06.02-20.23.19:294][425]PIE: Server logged in
+[2023.06.02-20.23.19:300][425]PIE: Play in editor total start time 0.359 seconds.
+[2023.06.02-20.23.19:327][425]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.23.19:339][425]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.23.19:356][425]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.23.27:249][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.23.27:249][670]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.23.27:312][670]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.23.27:315][670]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.23.27:315][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.23.27:318][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.23.27:327][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.23.27:378][670]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.02-20.23.27:378][670]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.23.27:378][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.06.02-20.23.27:380][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.06.02-20.23.27:385][670]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.23.27:385][670]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.23.27:388][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.06.02-20.23.27:452][671]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2023.06.02-20.24.25:799][709]BlueprintLog: New page: Compile VRPawn
+[2023.06.02-20.24.25:996][709]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.06.02-20.24.26:147][709]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.24.26:226][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.02-20.24.26:334][709]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.02-20.24.26:335][709]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawn0F2532424BDB513EA98C2BB10568DBDD.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.02-20.24.26:340][709]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 11.0 sec)
+[2023.06.02-20.24.26:349][709]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.02-20.24.26:349][709]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.02-20.24.40:795][279]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.24.40:803][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-20.24.40:803][279]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:24:40 a.m.)
+[2023.06.02-20.24.40:803][279]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.24.40:811][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007404s)
+[2023.06.02-20.24.40:811][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.007446s)
+[2023.06.02-20.24.40:811][279]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.24.40:811][279]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.24.40:812][279]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2023.06.02-20.24.40:878][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.06.02-20.24.40:882][279]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2023.06.02-20.24.40:882][279]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.24.40:882][279]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.24.40:882][279]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.24.40:882][279]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.24.40:882][279]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.24.40:882][279]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.24.40:882][279]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.24.40:882][279]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.24.40:883][279]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.24.40:883][279]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.24.40:883][279]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.24.40:885][279]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.24.40:895][279]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.24.40:896][279]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.24.40:896][279]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.24.40:896][279]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.24.40:897][279]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2023.06.02-20.24.40:897][279]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2023.06.02-20.24.40:899][279]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2023.06.02-20.24.40:899][279]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2023.06.02-20.24.40:899][279]LogInit: FAudioDevice initialized.
+[2023.06.02-20.24.40:899][279]LogAudio: Display: Audio Device (ID: 39) registered with world 'Tutorial'.
+[2023.06.02-20.24.40:928][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.24.41:123][279]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.24.41:126][279]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.24.41
+[2023.06.02-20.24.41:127][279]LogWorld: Bringing up level for play took: 0.003684
+[2023.06.02-20.24.41:130][279]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2023.06.02-20.24.41:133][279]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.24.41:136][279]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.24.41:137][279]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.24.41:138][279]vr.PixelDensity = "1"
+[2023.06.02-20.24.41:153][279]PIE: Server logged in
+[2023.06.02-20.24.41:163][279]PIE: Play in editor total start time 0.361 seconds.
+[2023.06.02-20.24.41:190][279]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.24.41:199][279]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.24.41:216][279]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.24.45:179][375]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.24.45:609][385]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.24.45:945][394]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.14:904][358]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.15:720][385]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.18:752][491]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.19:676][523]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.23:224][645]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.24:096][670]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.24:604][684]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.25:189][701]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.28:232][804]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.31:071][896]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.31:651][914]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.25.49:849][514]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.25.49:849][514]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.25.49:957][514]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.25.49:960][514]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.25.49:960][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.25.49:964][514]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.25.49:971][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.25.50:039][514]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.02-20.25.50:039][514]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.25.50:039][514]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.06.02-20.25.50:041][514]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.06.02-20.25.50:049][514]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.25.50:049][514]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.25.50:052][514]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.06.02-20.25.50:124][515]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2023.06.02-20.25.53:604][655]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.25.53:677][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.02-20.25.53:807][655]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.02-20.25.53:807][655]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawn33B1189548677D7B352D0188EB3EF05A.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.02-20.25.53:816][655]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 11.2 sec)
+[2023.06.02-20.25.53:834][655]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.02-20.25.53:834][655]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.02-20.28.07:607][997]BlueprintLog: New page: Compile JournalWidget
+[2023.06.02-20.28.07:723][997]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.06.02-20.28.07:923][997]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.28.08:058][997]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.02-20.28.08:058][997]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidget6F306B2E4F08DEA88FD88A8B40034A8B.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.02-20.28.08:065][997]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 11.3 sec)
+[2023.06.02-20.28.08:075][997]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.02-20.28.08:075][997]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.02-20.28.08:638][ 17]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.06.02-20.28.08:645][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.02-20.28.08:645][ 17]PIE: New page: PIE session: Tutorial (Jun. 2, 2023, 6:28:08 a.m.)
+[2023.06.02-20.28.08:645][ 17]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.28.08:651][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005756s)
+[2023.06.02-20.28.08:651][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Tutorial.Tutorial to /Game/Levels/UEDPIE_0_Tutorial.Tutorial (0.005795s)
+[2023.06.02-20.28.08:651][ 17]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.02-20.28.08:651][ 17]LogAIModule: Creating AISystem for world Tutorial
+[2023.06.02-20.28.08:652][ 17]LogPlayLevel: PIE: World Init took: (0.001241s)
+[2023.06.02-20.28.08:712][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.06.02-20.28.08:718][ 17]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2023.06.02-20.28.08:718][ 17]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.02-20.28.08:718][ 17]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.02-20.28.08:718][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.02-20.28.08:718][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.02-20.28.08:718][ 17]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.06.02-20.28.08:718][ 17]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.02-20.28.08:718][ 17]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.06.02-20.28.08:718][ 17]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.02-20.28.08:719][ 17]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.06.02-20.28.08:719][ 17]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.06.02-20.28.08:719][ 17]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.02-20.28.08:721][ 17]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.02-20.28.08:731][ 17]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.06.02-20.28.08:731][ 17]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.02-20.28.08:731][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.02-20.28.08:731][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.02-20.28.08:732][ 17]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2023.06.02-20.28.08:732][ 17]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2023.06.02-20.28.08:734][ 17]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2023.06.02-20.28.08:734][ 17]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2023.06.02-20.28.08:734][ 17]LogInit: FAudioDevice initialized.
+[2023.06.02-20.28.08:734][ 17]LogAudio: Display: Audio Device (ID: 40) registered with world 'Tutorial'.
+[2023.06.02-20.28.08:761][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.28.08:953][ 17]LogLoad: Game class is 'VRGameMode_C'
+[2023.06.02-20.28.08:956][ 17]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2023.06.02-13.28.08
+[2023.06.02-20.28.08:956][ 17]LogWorld: Bringing up level for play took: 0.002019
+[2023.06.02-20.28.08:959][ 17]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2023.06.02-20.28.08:965][ 17]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.06.02-20.28.08:967][ 17]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.28.08:969][ 17]Cmd: vr.PixelDensity 1.0
+[2023.06.02-20.28.08:969][ 17]vr.PixelDensity = "1"
+[2023.06.02-20.28.08:980][ 17]PIE: Server logged in
+[2023.06.02-20.28.08:987][ 17]PIE: Play in editor total start time 0.343 seconds.
+[2023.06.02-20.28.09:013][ 17]LogViewport: Scene viewport resized to 4224x2128, mode Windowed.
+[2023.06.02-20.28.09:021][ 17]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.06.02-20.28.09:038][ 17]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.06.02-20.28.13:374][127]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.13:889][140]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.21:371][344]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.22:411][371]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.22:931][384]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.23:342][396]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.23:835][411]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.25:092][448]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.25:561][462]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.26:646][498]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.27:276][516]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.32:267][692]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.32:734][708]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.33:787][745]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.34:219][760]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.06.02-20.28.49:051][279]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.02-20.28.49:051][279]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Tutorial
+[2023.06.02-20.28.49:120][279]LogSlate: Window 'EAESFieldLabVR Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.06.02-20.28.49:123][279]LogWorld: UWorld::CleanupWorld for Tutorial, bSessionEnded=true, bCleanupResources=true
+[2023.06.02-20.28.49:123][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.28.49:127][279]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.02-20.28.49:137][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.02-20.28.49:195][279]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.02-20.28.49:196][279]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.06.02-20.28.49:196][279]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.06.02-20.28.49:198][279]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.06.02-20.28.49:204][279]LogSlate: Slate User Unregistered.  User Index 8
+[2023.06.02-20.28.49:204][279]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.06.02-20.28.49:207][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.06.02-20.28.49:264][280]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2023.06.02-20.30.28:382][633]BlueprintLog: New page: Compile JournalWidget
+[2023.06.02-20.30.28:483][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.06.02-20.30.29:294][655]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.30.29:403][655]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.02-20.30.29:404][655]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidget4BAA2A8741BC2A855B5C9BBC56C39238.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.02-20.30.29:413][655]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 11.4 sec)
+[2023.06.02-20.30.29:423][655]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.02-20.30.29:423][655]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.02-20.30.47:682][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.02-20.30.47:790][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.06.02-20.30.47:816][393]LogSavePackage: Moving output files for package: /Game/Levels/Tutorial
+[2023.06.02-20.30.47:817][393]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/Tutorial293B65184354B17FDFF66C9430FD77F9.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Levels/Tutorial.umap'
+[2023.06.02-20.30.47:832][393]LogFileHelpers: No new changes to save!
+[2023.06.02-20.30.47:832][393]LogFileHelpers: Saving map 'Tutorial' took 0.115
+[2023.06.02-20.30.47:839][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 11.6 sec)
+[2023.06.02-20.30.47:849][393]AssetCheck: New page: Asset Save: Tutorial
+[2023.06.02-20.30.47:849][393]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Tutorial.Tutorial
