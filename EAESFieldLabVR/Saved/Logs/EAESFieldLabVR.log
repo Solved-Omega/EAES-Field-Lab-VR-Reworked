@@ -1991,3 +1991,106 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.06.09-20.26.09:473][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 4.12 sec)
 [2023.06.09-20.26.09:485][669]AssetCheck: New page: Asset Save: JournalWidget
 [2023.06.09-20.26.09:485][669]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.09-20.29.56:090][143]LogViewport: Scene viewport resized to 1141x693, mode Windowed.
+[2023.06.09-20.29.56:129][144]LogShaderCompilers: Display: ================================================
+[2023.06.09-20.29.56:129][144]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.06.09-20.29.56:129][144]LogShaderCompilers: Display: Total job queries 188, among them cache hits 22 (11.70%)
+[2023.06.09-20.29.56:129][144]LogShaderCompilers: Display: Tracking 166 distinct input hashes that result in 87 distinct outputs (52.41%)
+[2023.06.09-20.29.56:129][144]LogShaderCompilers: Display: RAM used: 1.66 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.10%
+[2023.06.09-20.29.56:129][144]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.06.09-20.29.56:129][144]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.06.09-20.29.56:129][144]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.06.09-20.29.56:130][144]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.06.09-20.29.56:130][144]LogShaderCompilers: Display: ================================================
+[2023.06.09-20.29.57:619][201]BlueprintLog: New page: Compile VRPawn
+[2023.06.09-20.29.57:702][201]LogBlueprint: Warning: [AssetLog] C:\Users\300339869\Documents\GitHub\EAES-Field-Lab-VR-Reworked\EAESFieldLabVR\Content\Blueprints\VRPawn.uasset: [Compiler] Input pin  Rock Data Is Unique?  specifying non-default value no longer exists on node  Set . Please refresh node or reset pin to default value to remove pin.
+[2023.06.09-20.29.57:912][201]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.06.09-20.30.06:322][544]BlueprintLog: New page: Compile VRPawn
+[2023.06.09-20.30.06:606][544]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2023.06.09-20.30.06:738][544]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.30.06:870][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.09-20.30.07:047][544]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.09-20.30.07:047][544]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawn899FA3214EFCB2C5C94FC0BBF8170870.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.09-20.30.07:056][544]LogFileHelpers: InternalPromptForCheckoutAndSave took 318 ms (total: 4.44 sec)
+[2023.06.09-20.30.07:070][544]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.09-20.30.07:070][544]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.09-20.32.15:733][728]LogEditorTransaction: Undo Create Pin Link
+[2023.06.09-20.33.01:698][765]BlueprintLog: New page: Compile VRPawn
+[2023.06.09-20.33.01:993][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2023.06.09-20.33.02:156][765]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.33.02:244][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VRPawn" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset" SILENT=true
+[2023.06.09-20.33.02:414][765]LogSavePackage: Moving output files for package: /Game/Blueprints/VRPawn
+[2023.06.09-20.33.02:414][765]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/VRPawn2E21AA2946AD859D4E7443ABA7FCA1FB.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Blueprints/VRPawn.uasset'
+[2023.06.09-20.33.02:423][765]LogFileHelpers: InternalPromptForCheckoutAndSave took 266 ms (total: 4.71 sec)
+[2023.06.09-20.33.02:436][765]AssetCheck: New page: Asset Save: VRPawn
+[2023.06.09-20.33.02:436][765]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/VRPawn.VRPawn
+[2023.06.09-20.33.51:934][975]LogEditorTransaction: Undo Move Node
+[2023.06.09-20.34.42:407][245]BlueprintLog: New page: Compile JournalWidget
+[2023.06.09-20.34.42:573][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.06.09-20.34.42:756][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.34.42:939][245]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.09-20.34.42:939][245]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidget03497A894FA65103596FAFB7E9A68D13.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.09-20.34.42:948][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 4.90 sec)
+[2023.06.09-20.34.42:960][245]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.09-20.34.42:960][245]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.09-20.35.24:968][145]LogEditorTransaction: Undo Move Nodes
+[2023.06.09-20.36.20:160][621]BlueprintLog: New page: Compile JournalWidget
+[2023.06.09-20.36.20:341][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.06.09-20.36.20:459][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.36.20:630][621]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.09-20.36.20:631][621]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidget21C0BDB8439A26B576A4DF8F87078554.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.09-20.36.20:638][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 5.08 sec)
+[2023.06.09-20.36.20:650][621]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.09-20.36.20:650][621]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.09-20.38.07:473][439]BlueprintLog: New page: Compile JournalWidget
+[2023.06.09-20.38.07:664][439]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.06.09-20.38.07:783][439]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.38.07:965][439]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.09-20.38.07:966][439]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidgetD155251243133DE970F2888E8317291C.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.09-20.38.07:976][439]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 5.27 sec)
+[2023.06.09-20.38.07:987][439]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.09-20.38.07:987][439]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.09-20.38.08:357][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.38.08:543][449]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.09-20.38.08:544][449]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidgetDC1D8E5E437734CFDB2D938129BF1822.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.09-20.38.08:552][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 194 ms (total: 5.47 sec)
+[2023.06.09-20.38.08:562][449]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.09-20.38.08:562][449]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.09-20.38.16:350][806]BlueprintLog: New page: Compile JournalWidget
+[2023.06.09-20.38.16:540][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2023.06.09-20.38.16:655][806]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.38.16:827][806]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.09-20.38.16:828][806]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidgetCCADAF4B4E426632A07984BD8EAA19B0.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.09-20.38.16:836][806]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 5.65 sec)
+[2023.06.09-20.38.16:848][806]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.09-20.38.16:848][806]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.09-20.38.17:058][807]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.38.17:222][807]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.09-20.38.17:223][807]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidget46E6C32B4A9D0172F2A269945B77D69A.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.09-20.38.17:231][807]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 5.82 sec)
+[2023.06.09-20.38.17:242][807]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.09-20.38.17:242][807]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.09-20.38.36:803][701]BlueprintLog: New page: Compile JournalWidget
+[2023.06.09-20.38.37:007][701]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2023.06.09-20.38.37:492][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.38.37:692][711]LogSavePackage: Moving output files for package: /Game/Widgets/JournalWidget
+[2023.06.09-20.38.37:692][711]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/JournalWidget6730DFA145336A95A97DF387BB093D7D.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/JournalWidget.uasset'
+[2023.06.09-20.38.37:700][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 208 ms (total: 6.03 sec)
+[2023.06.09-20.38.37:711][711]AssetCheck: New page: Asset Save: JournalWidget
+[2023.06.09-20.38.37:711][711]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/JournalWidget.JournalWidget
+[2023.06.09-20.39.26:307][868]BlueprintLog: New page: Compile RockWidget
+[2023.06.09-20.39.26:483][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2023.06.09-20.39.26:587][868]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.39.26:673][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.09-20.39.26:725][868]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.09-20.39.26:726][868]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidgetB0D4133D44B9C509E7C8869BAF1D797C.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.09-20.39.26:735][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 6.18 sec)
+[2023.06.09-20.39.26:749][868]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.09-20.39.26:749][868]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
+[2023.06.09-20.39.27:078][878]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.06.09-20.39.27:167][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/RockWidget" FILE="../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset" SILENT=true
+[2023.06.09-20.39.27:217][878]LogSavePackage: Moving output files for package: /Game/Widgets/RockWidget
+[2023.06.09-20.39.27:217][878]LogSavePackage: Moving '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Saved/RockWidget3D2423AC4481278FECAF229828A9FD4D.tmp' to '../../../../../../Users/300339869/Documents/GitHub/EAES-Field-Lab-VR-Reworked/EAESFieldLabVR/Content/Widgets/RockWidget.uasset'
+[2023.06.09-20.39.27:225][878]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 6.32 sec)
+[2023.06.09-20.39.27:235][878]AssetCheck: New page: Asset Save: RockWidget
+[2023.06.09-20.39.27:235][878]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/RockWidget.RockWidget
