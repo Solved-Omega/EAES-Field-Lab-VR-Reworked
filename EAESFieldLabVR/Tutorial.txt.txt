@@ -41,8 +41,8 @@ Interact with the Coloured Pin to place a Pin Marker in your Map.
 Interact with the Export Map Button to export a ".png" image which you can open and view the Map and the Pin Markers you've placed.
 
 PAUSE TUTORIAL
-
-
+Press the "B" Button to open up the Pause Menu,
+This is where you can see the controls, change settings or go back to the Main Menu
 
 
 
