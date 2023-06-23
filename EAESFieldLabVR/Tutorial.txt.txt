@@ -4,7 +4,7 @@ This tutorial goes through the basics of using a VR headset as well as the exper
 GUARDIAN TUTORIAL
 This is the VR Headset Guardian, this is the safe space you're able to walk on in the Real World.
 Make sure that there are no hazard in this area where you can potentially bump into or trip over.
-Stepping out of this area in the Real World will trigger Passthrough which will stop the experience.
+Stepping out of this area in the Real World will trigger Passthrough which will stop the experience and let you see the Real World through the Headset cameras.
 
 TELEPORTING TUTORIAL
 To move around in the Virtual Reality,
